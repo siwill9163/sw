@@ -1,6 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -29,7 +30,7 @@ const Business = () =>  (
       I will attract customers by optimizing SEO, creating engaging content, leveraging social media, running targeted ads, offering exclusive promotions, enhancing website UX, and utilizing email campaigns for personalized outreach.
       </p>
 
-      <Button styles={`mt-10`} />
+      <AnchorLink className='anchor-link' href='#contact'> <Button styles={`mt-10`} /> </AnchorLink>  
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

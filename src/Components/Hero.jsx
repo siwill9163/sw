@@ -4,6 +4,7 @@ import { discount } from '../assets'
 import { robot } from '../assets'
 import GetStarted from './GetStarted'
 import robotMagic from '../assets/robotMagic.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () =>  (
     <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -23,7 +24,8 @@ const Hero = () =>  (
           <span className='text-gradient'>Generation </span> {" "} </h1>
 
           <div className='ss:flex hidden md:mr-4 mr-0'>
-            <GetStarted />
+          <AnchorLink className='anchor-link' href='#contact'>  <GetStarted /> </AnchorLink>  
+           
           </div>
         </div>
 

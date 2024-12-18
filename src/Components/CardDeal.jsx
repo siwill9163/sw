@@ -2,6 +2,7 @@ import { card } from '../assets'
 import devices from '../assets/devices.png'
 import styles, { layout } from '../style'
 import Button  from './Button'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const CardDeal = () => (
     <section className={layout.section}>
@@ -10,7 +11,8 @@ const CardDeal = () => (
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Smart phones are now the most popular device used to access the internet, with 60% of the overall global internet traffic originating from a mobile device.
         </p>
-        <Button styles="mt-10"/>
+       
+        <AnchorLink className='anchor-link' href='#contact'>  <Button styles="mt-10"/> </AnchorLink>  
 
       </div>
 
