@@ -14,14 +14,16 @@ const Hero = () =>  (
         <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
           <img src={discount} alt="discount" className='w-[32px] h-[32px]'/>
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>20%</span> Off your 1st {" "}
-            <span className='text-white'> Website</span> Click Here.
+            <span className='text-white'>100%</span> {" "}
+            <span className='text-white'>Trusted </span>Drone Hire .
           </p>
         </div>
 
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[46px] text-white ss:leading-100px] leading-[75px] mt-10'>The Next <br className='sm:block hidden'/> {" "} 
-          <span className='text-gradient'>Generation </span> {" "} </h1>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[46px] 
+          text-white ss:leading-100px] leading-[75px] mt-10'>Making  
+          <br className='sm:block hidden'/> {" "} 
+          <span className='text-gradient'>Drone Hire </span> {" "} </h1>
 
           <div className='ss:flex hidden md:mr-4 mr-0'>
           <AnchorLink className='anchor-link' href='#contact'>  <GetStarted /> </AnchorLink>  
@@ -30,8 +32,8 @@ const Hero = () =>  (
         </div>
 
         <h1 className='font-poppins mt-2 font-semibold ss:text-[68px] text-[46px] text-white ss:leading-100px] leading-[75px] w-full'>
-        of Web Developement.</h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>As a next-generation web delevloper I focus on speed, interactivity, and seamless user experiences. I leverage modern frameworks, micro frontends, and AI-driven personalization to revolutionize web development.</p>
+        affordable and easy.</h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Although we have a ceiling height of 120ft, we prefer lower altitude filming. It takes a lot more skill to operate at this altitude but enables us to capture dynamic shots adding great production value.</p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

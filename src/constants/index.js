@@ -9,15 +9,15 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Equipment",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Projects",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Hire",
   },
 ];
 
@@ -79,18 +79,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Artifical Intelligence",
-    value: "Latest",
+    title: "Ultra High defintion",
+    value: "4K",
   },
   {
     id: "stats-2",
-    title: "Cyber Security",
-    value: "Best",
+    title: "100% Insured",
+    value: "Trusted",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "Increased",
+    title: "GoPro Hero",
+    value: "DJI Drone",
   },
 ];
 
